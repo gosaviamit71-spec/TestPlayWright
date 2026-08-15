@@ -24,7 +24,9 @@ public class TestPlaywiteExample {
 	        page.locator("#twotabsearchtextbox").fill("lenovo laptop foldable 15 inch touch screen");
 	        page.locator("#nav-search-submit-text").click();
 	        page.waitForTimeout(1000);
-	        browser.close();
+	        page.close();
+            browser.close();
+            System.exit(0);
 	        
 //	        try (Playwright playwright = Playwright.create()) {
 //				
