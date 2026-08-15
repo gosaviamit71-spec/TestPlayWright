@@ -12,7 +12,7 @@ public class TestPlaywiteExample {
 		
 	        
 	        
-	        
+		 System.out.println("********************Started*******************************");
 	        Playwright playwright = Playwright.create();
 	        Browser browser=playwright.chromium().launch(new BrowserType.LaunchOptions()
 	        		.setChannel("chrome")
@@ -24,6 +24,8 @@ public class TestPlaywiteExample {
 	        page.locator("#twotabsearchtextbox").fill("lenovo laptop foldable 15 inch touch screen");
 	        page.locator("#nav-search-submit-text").click();
 	        page.waitForTimeout(1000);
+	        System.out.println(page.title());
+	        System.out.println("********************Completed*******************************");
 	        page.close();
             browser.close();
             System.exit(0);
