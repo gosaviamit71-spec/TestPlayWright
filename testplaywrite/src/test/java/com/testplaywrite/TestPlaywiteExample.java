@@ -48,12 +48,7 @@ public class TestPlaywiteExample {
 //	            page.locator("input[id='identifierId']").fill("gosaviamit71@gmail.com");
 //	            page.locator("xpath=//*[@id='identifierNext']//button//span").click();
 //
-//				/*
-//				 * // 5. Wait for password input and enter Password
-//				 * page.locator("input[name='Passwd']").waitFor();
-//				 * page.locator("input[name='Passwd']").fill("Amit@Gosavi");
-//				 * page.locator("xpath=//*[@id=\"passwordNext\"]/div/button/span").click();
-//				 */
+//		
 //
 //	            // Pause to observe login progress
 //	            page.waitForTimeout(1000);

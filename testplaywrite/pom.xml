@@ -27,6 +27,10 @@
         <configuration>
           <source>1.8</source>
           <target>1.8</target>
+          <includes>
+                    <!-- Ensures Maven picks up your test classes -->
+                    <include>**/*TestPlaywiteExample.java</include>
+                </includes>
         </configuration>
       </plugin>
     </plugins>
